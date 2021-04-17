@@ -252,7 +252,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 774
+      x: 772
       y: 864
       width: 55
       height: 69
@@ -266,7 +266,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 374, y: -1072}
+    uvTransform: {x: 372, y: -1072}
   - name: Grass03
     originalName: 
     pivot: {x: 0.50000054, y: 0.122561574}
@@ -275,7 +275,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 850
-      y: 354
+      y: 353
       width: 30
       height: 41
     spriteID: a95604d50b9b9d641acbbcc8a3438973
@@ -288,7 +288,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 389, y: -1584}
+    uvTransform: {x: 389, y: -1585}
   - name: Amanita01
     originalName: 
     pivot: {x: 0.5491269, y: 0.09207153}
@@ -318,7 +318,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 794
+      x: 793
       y: 405
       width: 31
       height: 36
@@ -332,7 +332,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 197, y: -1370}
+    uvTransform: {x: 196, y: -1370}
   - name: Fungi02
     originalName: 
     pivot: {x: 0.50000095, y: 0.10698514}
@@ -341,7 +341,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 850
-      y: 237
+      y: 236
       width: 33
       height: 45
     spriteID: 53694b0bcbbb62647b3eb88661cbabbd
@@ -354,7 +354,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 215, y: -1540}
+    uvTransform: {x: 215, y: -1541}
   - name: Fungi01
     originalName: 
     pivot: {x: 0.5000002, y: 0.111632064}
@@ -428,7 +428,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 794
+      x: 793
       y: 298
       width: 46
       height: 49
@@ -442,7 +442,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 216, y: -1546}
+    uvTransform: {x: 215, y: -1546}
   - name: Topp03
     originalName: 
     pivot: {x: 0.5, y: 0.09207153}
@@ -451,7 +451,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 850
-      y: 290
+      y: 289
       width: 24
       height: 56
     spriteID: 24355780507220249a54ddf7fb1bdc4f
@@ -464,7 +464,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 218, y: -1554}
+    uvTransform: {x: 218, y: -1555}
   - name: Berries02
     originalName: 
     pivot: {x: 0.37104186, y: 0.07891228}
@@ -472,7 +472,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 794
+      x: 793
       y: 355
       width: 40
       height: 42
@@ -486,7 +486,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 49, y: -1502}
+    uvTransform: {x: 48, y: -1502}
   - name: Berries01
     originalName: 
     pivot: {x: 0.49311316, y: 0.04117368}
@@ -530,7 +530,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 154, y: -1790}
+    uvTransform: {x: 151, y: -1791}
   - name: ImpStool02
     originalName: 
     pivot: {x: 0.56550294, y: 0.14909363}
@@ -552,7 +552,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 433, y: -1916}
+    uvTransform: {x: 433, y: -1919}
   - name: ImpStool01
     originalName: 
     pivot: {x: 0.50000054, y: 0.11145103}
@@ -574,7 +574,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 256, y: -1796}
+    uvTransform: {x: 255, y: -1796}
   - name: Chanterelle02
     originalName: 
     pivot: {x: 0.5566852, y: 0.0906094}
@@ -618,7 +618,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 146, y: -1109}
+    uvTransform: {x: 144, y: -1109}
   - name: Rock02
     originalName: 
     pivot: {x: 0.5453477, y: 0.09395132}
@@ -814,14 +814,14 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 14586adcfb0e6a34892ba860aabaf47c
     layerID: 28
-    mosaicPosition: {x: 774, y: 864}
+    mosaicPosition: {x: 772, y: 864}
   - name: Grass03
     spriteName: Grass03
     isGroup: 0
     parentIndex: -1
     spriteID: a95604d50b9b9d641acbbcc8a3438973
     layerID: 29
-    mosaicPosition: {x: 850, y: 354}
+    mosaicPosition: {x: 850, y: 353}
   - name: Amanita01
     spriteName: Amanita01
     isGroup: 0
@@ -835,14 +835,14 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: ec75a6453f915424293e2d1583cda71a
     layerID: 10
-    mosaicPosition: {x: 794, y: 405}
+    mosaicPosition: {x: 793, y: 405}
   - name: Fungi02
     spriteName: Fungi02
     isGroup: 0
     parentIndex: -1
     spriteID: 53694b0bcbbb62647b3eb88661cbabbd
     layerID: 11
-    mosaicPosition: {x: 850, y: 237}
+    mosaicPosition: {x: 850, y: 236}
   - name: Fungi01
     spriteName: Fungi01
     isGroup: 0
@@ -870,21 +870,21 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 59c09e618e5b0a745ad19928d98ce474
     layerID: 15
-    mosaicPosition: {x: 794, y: 298}
+    mosaicPosition: {x: 793, y: 298}
   - name: Topp03
     spriteName: Topp03
     isGroup: 0
     parentIndex: -1
     spriteID: 24355780507220249a54ddf7fb1bdc4f
     layerID: 16
-    mosaicPosition: {x: 850, y: 290}
+    mosaicPosition: {x: 850, y: 289}
   - name: Berries02
     spriteName: Berries02
     isGroup: 0
     parentIndex: -1
     spriteID: d973122d445b3d442bf57e8fc1271a88
     layerID: 17
-    mosaicPosition: {x: 794, y: 355}
+    mosaicPosition: {x: 793, y: 355}
   - name: Berries01
     spriteName: Berries01
     isGroup: 0
