@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && IsGrounded()) {
             Jump();
+            anim.SetTrigger("TakeOff");
         }
 
         if(Mathf.Abs(_mx) > 0.05f) {

@@ -122,9 +122,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 268
-      width: 256
-      height: 144
-    spriteID: 49c493591e12a0047b327670fa81beed
+      width: 270
+      height: 112
+    spriteID: 3d91f8acffb2f2b4ab8f291a743fcfe7
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -134,7 +134,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -32, y: -1601}
+    uvTransform: {x: -26, y: -1617}
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -198,8 +198,8 @@ ScriptedImporter:
     spriteName: Fog
     isGroup: 0
     parentIndex: -1
-    spriteID: 49c493591e12a0047b327670fa81beed
-    layerID: 2
+    spriteID: 3d91f8acffb2f2b4ab8f291a743fcfe7
+    layerID: 4
     mosaicPosition: {x: 4, y: 268}
   characterData:
     bones: []
