@@ -51,11 +51,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Ground
-    uniqueID: 2131266183
-    locked: 0
   - name: MiddleGround
     uniqueID: 2722913947
+    locked: 0
+  - name: Ground
+    uniqueID: 2131266183
     locked: 0
   - name: Lights
     uniqueID: 1344486879
