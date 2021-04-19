@@ -12,19 +12,15 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayers;
 
     float _mx;
-
-    void Start()
-    {
-        
-    }
+    bool _jumpRequest;
 
 
     void Update() {
         _mx = Input.GetAxisRaw("Horizontal");
 
         if (Input.GetButtonDown("Jump") && IsGrounded()) {
-            Jump();
             anim.SetTrigger("TakeOff");
+            _jumpRequest = true;
         }
 
         if(Mathf.Abs(_mx) > 0.05f) {
@@ -44,13 +40,17 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void FixedUpdate() {
+        // move (use AddForce instead)
         Vector2 movement = new Vector2(_mx * movementSpeed, rb.velocity.y);
         rb.velocity = movement;
-    }
 
-    void Jump() {
-        Vector2 movement = new Vector2(rb.velocity.x, jumpForce);
-        rb.velocity = movement;
+        // jump
+        if(_jumpRequest)
+        {
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            _jumpRequest = false;
+        }
+
     }
 
     public bool IsGrounded() {
