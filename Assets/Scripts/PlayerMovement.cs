@@ -11,32 +11,29 @@ public class PlayerMovement : MonoBehaviour
     public Transform feetBox;
     public LayerMask groundLayers;
 
+
+
     float _mx;
     bool _jumpRequest;
 
 
     void Update() {
         _mx = Input.GetAxisRaw("Horizontal");
+        bool bGrounded = Physics2D.OverlapCircle(feetBox.position, 0.5f, groundLayers);
 
-        if (Input.GetButtonDown("Jump") && IsGrounded()) {
+        if (Input.GetButtonDown("Jump") && bGrounded) {
             anim.SetTrigger("TakeOff");
             _jumpRequest = true;
         }
 
-        if(Mathf.Abs(_mx) > 0.05f) {
+        if(Mathf.Abs(_mx) > 0.01f) {
+            transform.localScale = new Vector3(Mathf.Sign(_mx), 1f, 1f); // flips the player if needed
             anim.SetBool("IsWalking", true);
         } else {
             anim.SetBool("IsWalking", false);
         }
 
-        if (_mx > 0f) {
-            transform.localScale = new Vector3(1f, 1f, 1f);
-        }
-        else if (_mx < 0f) {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
-        }
-
-        anim.SetBool("IsGrounded", IsGrounded());
+        anim.SetBool("IsGrounded", bGrounded);
     }
 
     private void FixedUpdate() {
@@ -51,15 +48,5 @@ public class PlayerMovement : MonoBehaviour
             _jumpRequest = false;
         }
 
-    }
-
-    public bool IsGrounded() {
-        Collider2D groundCheck = Physics2D.OverlapCircle(feetBox.position, 0.5f, groundLayers);
-
-        if (groundCheck != null)
-        {
-            return true;
-        }
-        return false;
     }
 }
