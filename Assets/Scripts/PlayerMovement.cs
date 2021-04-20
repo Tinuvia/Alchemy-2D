@@ -10,9 +10,11 @@ public class PlayerMovement : MonoBehaviour
     public float movementSpeed;
     public Transform feetBox;
     public LayerMask groundLayers;
+    public ParticleSystem dustCloud;
 
     float _mx;
-    bool _jumpRequest;
+    bool _bJumpRequest;
+    bool _bSpawnDust;
 
 
     void Update()
@@ -20,11 +22,22 @@ public class PlayerMovement : MonoBehaviour
         _mx = Input.GetAxisRaw("Horizontal");
         bool bGrounded = Physics2D.OverlapCircle(feetBox.position, 0.5f, groundLayers);
 
-        if (Input.GetButtonDown("Jump") && bGrounded)
+        if (bGrounded)
         {
-            anim.SetTrigger("TakeOff");
-            _jumpRequest = true;
+            if (_bSpawnDust)
+            {
+                Instantiate(dustCloud, feetBox.position, Quaternion.identity);
+                _bSpawnDust = false;
+            }
+
+            if (Input.GetButtonDown("Jump"))
+            {
+                anim.SetTrigger("TakeOff");
+                _bJumpRequest = true;
+            }
+            _bSpawnDust = true;
         }
+
 
         if (Mathf.Abs(_mx) > 0.01f)
         {
@@ -51,10 +64,10 @@ public class PlayerMovement : MonoBehaviour
         */
 
         // jump
-        if (_jumpRequest)
+        if (_bJumpRequest)
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            _jumpRequest = false;
+            _bJumpRequest = false;
         }
 
     }
