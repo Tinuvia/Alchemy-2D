@@ -20,7 +20,7 @@ TagManager:
   - Player
   - Foreground
   - ForegroundEdge
-  - 
+  - PostProcessing
   - 
   - 
   - 
@@ -39,6 +39,30 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BackGround
+    uniqueID: 587802383
+    locked: 0
+  - name: BackgroundLight
+    uniqueID: 2328344009
+    locked: 0
+  - name: Particles
+    uniqueID: 3892061561
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: MiddleGround
+    uniqueID: 2722913947
+    locked: 0
+  - name: Ground
+    uniqueID: 2131266183
+    locked: 0
+  - name: Lights
+    uniqueID: 1344486879
+    locked: 0
+  - name: Player
+    uniqueID: 2462893445
+    locked: 0
+  - name: ForeGround
+    uniqueID: 133189225
     locked: 0

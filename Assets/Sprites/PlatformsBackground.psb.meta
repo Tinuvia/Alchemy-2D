@@ -91,28 +91,6 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Pillar01
-    originalName: 
-    pivot: {x: 0.50921154, y: 0.024426933}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 347
-      y: 1090
-      width: 320
-      height: 626
-    spriteID: 52708fc0b1ab25646a77eb969c763a2c
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 299, y: -50}
   - name: Pillar02
     originalName: 
     pivot: {x: 0.5278067, y: 0.021745075}
@@ -311,6 +289,28 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+  - name: Pillar01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 347
+      y: 1090
+      width: 320
+      height: 626
+    spriteID: b576bf3ed67fc4b48a599505351aebd2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 299, y: -50}
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -367,7 +367,7 @@ ScriptedImporter:
     spriteName: Pillar01
     isGroup: 0
     parentIndex: -1
-    spriteID: 52708fc0b1ab25646a77eb969c763a2c
+    spriteID: b576bf3ed67fc4b48a599505351aebd2
     layerID: 6
     mosaicPosition: {x: 347, y: 1090}
   - name: Pillar02

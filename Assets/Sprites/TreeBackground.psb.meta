@@ -91,7 +91,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Layer 1
+  - name: Trees02
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -99,10 +99,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1036
-      width: 1551
-      height: 994
-    spriteID: eb128e19b1d57454bb0e700185baef50
+      y: 1096
+      width: 2012
+      height: 1023
+    spriteID: 30036e37cec8bb440bd7bdfb5395abbf
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -112,8 +112,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 1036}
-  - name: Layer 1 copy
+    uvTransform: {x: -51, y: 30}
+  - name: Trees01
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -122,9 +122,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1654
-      height: 1024
-    spriteID: 3c36841bfd2843a43abd0d567c51369d
+      width: 2048
+      height: 1084
+    spriteID: 7431abc0f8d6dc640b3e0b4e59e726b2
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -134,7 +134,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -27, y: -1020}
+    uvTransform: {x: 4, y: 4}
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -180,26 +180,26 @@ ScriptedImporter:
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 2048
-  textureActualHeight: 2048
+  textureActualWidth: 4096
+  textureActualHeight: 4096
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Layer 1
-    spriteName: Layer 1
+  - name: Trees02
+    spriteName: Trees02
     isGroup: 0
     parentIndex: -1
-    spriteID: eb128e19b1d57454bb0e700185baef50
-    layerID: 9
-    mosaicPosition: {x: 4, y: 1036}
-  - name: Layer 1 copy
-    spriteName: Layer 1 copy
+    spriteID: 30036e37cec8bb440bd7bdfb5395abbf
+    layerID: 11
+    mosaicPosition: {x: 4, y: 1096}
+  - name: Trees01
+    spriteName: Trees01
     isGroup: 0
     parentIndex: -1
-    spriteID: 3c36841bfd2843a43abd0d567c51369d
-    layerID: 5
+    spriteID: 7431abc0f8d6dc640b3e0b4e59e726b2
+    layerID: 13
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
