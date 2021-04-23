@@ -2754,15 +2754,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pools:
-  - tag: ForestFog
-    prefab: {fileID: 1437691679069649012, guid: d68e263211d9c394a8294dbb247e5979, type: 3}
-    size: 150
-  - tag: CaveFog
-    prefab: {fileID: 3812346825626384064, guid: c297cc480be0c1444821a2996853f758, type: 3}
-    size: 150
-  - tag: ForestDust
-    prefab: {fileID: 3245842245837781757, guid: dbd45cebec2805f4b9b1c9f0416dd26a, type: 3}
-    size: 150
+  - tag: JumpCloud
+    prefab: {fileID: 2236256262935617529, guid: 28fa03c94f6dd56429ab7c1345fedccf, type: 3}
+    size: 10
 --- !u!4 &548664524
 Transform:
   m_ObjectHideFlags: 0
@@ -7896,7 +7890,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ab21862a8cf5db4b8f02be27cf354b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubePrefab: {fileID: 2314199497805935020, guid: 17a81ee9b08d5f84b901a20a2ca04780, type: 3}
 --- !u!4 &1617715284
 Transform:
   m_ObjectHideFlags: 0
@@ -10503,7 +10496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dustTrail: {fileID: 0}
-  anim: {fileID: 0}
+  feetBox: {fileID: 0}
 --- !u!114 &2139190743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10524,7 +10517,6 @@ MonoBehaviour:
   groundLayers:
     serializedVersion: 2
     m_Bits: 256
-  dustCloud: {fileID: 2236256262935617533, guid: 28fa03c94f6dd56429ab7c1345fedccf, type: 3}
 --- !u!114 &2139190744
 MonoBehaviour:
   m_ObjectHideFlags: 0

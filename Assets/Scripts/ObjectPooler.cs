@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// From Brackey's tutorial on Object Pooling
+
 public class ObjectPooler : MonoBehaviour
 {
     [System.Serializable]
@@ -55,8 +57,9 @@ public class ObjectPooler : MonoBehaviour
             Debug.LogWarning("Pool with tag " + tag + " doesn't exist.");
             return null;
         }
-
         GameObject objectToSpawn = poolDictionary[tag].Dequeue();
+
+        objectToSpawn.SetActive(true);
         objectToSpawn.transform.position = position;
         objectToSpawn.transform.rotation = rotation;
 

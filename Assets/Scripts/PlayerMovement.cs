@@ -10,12 +10,17 @@ public class PlayerMovement : MonoBehaviour
     public float movementSpeed;
     public Transform feetBox;
     public LayerMask groundLayers;
-    public ParticleSystem dustCloud;
+    // public ParticleSystem dustCloud;
 
     float _mx;
     bool _bJumpRequest;
     bool _bSpawnDust;
-
+    ObjectPooler _objectPooler;
+    
+    private void Start()
+    {
+        _objectPooler = ObjectPooler.Instance;
+    }
 
     void Update()
     {
@@ -26,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (_bSpawnDust)
             {
-                Instantiate(dustCloud, feetBox.position, Quaternion.identity);
+                _objectPooler.SpawnFromPool("JumpCloud", feetBox.position, Quaternion.identity);
                 _bSpawnDust = false;
             }
 
@@ -34,8 +39,8 @@ public class PlayerMovement : MonoBehaviour
             {
                 anim.SetTrigger("TakeOff");
                 _bJumpRequest = true;
+                _bSpawnDust = true;
             }
-            _bSpawnDust = true;
         }
 
 
