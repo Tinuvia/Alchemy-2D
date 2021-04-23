@@ -10,16 +10,20 @@ public class PlayerMovement : MonoBehaviour
     public float movementSpeed;
     public Transform feetBox;
     public LayerMask groundLayers;
-    // public ParticleSystem dustCloud;
-
+    
     float _mx;
     bool _bJumpRequest;
     bool _bSpawnDust;
+    float _timeBtwTrail;
+    float _startTimeBtwTrail = 2f;
+    GameObject _dustTrail;
+
     ObjectPooler _objectPooler;
     
     private void Start()
     {
         _objectPooler = ObjectPooler.Instance;
+        _timeBtwTrail = _startTimeBtwTrail;
     }
 
     void Update()
@@ -48,6 +52,18 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.localScale = new Vector3(Mathf.Sign(_mx), 1f, 1f); // flips the player if needed
             anim.SetBool("IsWalking", true);
+
+            if(_timeBtwTrail <= 0)
+            {
+                _dustTrail = _objectPooler.SpawnFromPool("DustTrail", feetBox.position, Quaternion.identity);
+                _dustTrail.transform.SetParent(feetBox);
+                //Instantiate(dustTrail, feetBox.position, Quaternion.identity);
+                _timeBtwTrail = _startTimeBtwTrail;
+            } else
+            {
+                _timeBtwTrail -= Time.deltaTime;
+            }
+         
         }
         else
         {
