@@ -665,8 +665,8 @@ ScriptedImporter:
     uvTransform: {x: 660, y: -1320}
   - name: Tree01
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.50968283, y: 0.029663501}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -687,8 +687,8 @@ ScriptedImporter:
     uvTransform: {x: -951, y: -1039}
   - name: Tree02
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.4563351, y: 0.024333598}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
