@@ -187,7 +187,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 756
-      y: 774
+      y: 845
       width: 72
       height: 64
     spriteID: 81343cc43cdfa1e4f895bbd8a72f1590
@@ -200,7 +200,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 457, y: -1053}
+    uvTransform: {x: 457, y: -982}
   - name: Leaf01
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -209,7 +209,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 850
-      y: 4
+      y: 134
       width: 108
       height: 44
     spriteID: 180312162a58b534f9b5f7dba51a6325
@@ -222,7 +222,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 509, y: -1884}
+    uvTransform: {x: 509, y: -1754}
   - name: Grass01
     originalName: 
     pivot: {x: 0.5199164, y: 0.11357554}
@@ -231,7 +231,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 673
-      y: 774
+      y: 845
       width: 74
       height: 82
     spriteID: 690c98df0a72b4a4fbd7c945f181cce2
@@ -244,7 +244,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 365, y: -1161}
+    uvTransform: {x: 365, y: -1090}
   - name: Grass02
     originalName: 
     pivot: {x: 0.47320336, y: 0.10484938}
@@ -252,8 +252,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 772
-      y: 864
+      x: 850
+      y: 401
       width: 55
       height: 69
     spriteID: 14586adcfb0e6a34892ba860aabaf47c
@@ -266,7 +266,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 372, y: -1072}
+    uvTransform: {x: 450, y: -1535}
   - name: Grass03
     originalName: 
     pivot: {x: 0.50000054, y: 0.122561574}
@@ -274,8 +274,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 850
-      y: 353
+      x: 804
+      y: 917
       width: 30
       height: 41
     spriteID: a95604d50b9b9d641acbbcc8a3438973
@@ -288,7 +288,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 389, y: -1585}
+    uvTransform: {x: 343, y: -1021}
   - name: Amanita01
     originalName: 
     pivot: {x: 0.5491269, y: 0.09207153}
@@ -296,8 +296,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 850
-      y: 56
+      x: 948
+      y: 69
       width: 60
       height: 56
     spriteID: 27d5b4b36d1f2704aa2c8e2b37bfa9fa
@@ -310,7 +310,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 323, y: -1719}
+    uvTransform: {x: 421, y: -1706}
   - name: Amanita02
     originalName: 
     pivot: {x: 0.5, y: 0.15201823}
@@ -318,8 +318,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 793
-      y: 405
+      x: 925
+      y: 419
       width: 31
       height: 36
     spriteID: ec75a6453f915424293e2d1583cda71a
@@ -332,7 +332,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 196, y: -1370}
+    uvTransform: {x: 328, y: -1356}
   - name: Fungi02
     originalName: 
     pivot: {x: 0.50000095, y: 0.10698514}
@@ -340,8 +340,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 850
-      y: 236
+      x: 983
+      y: 186
       width: 33
       height: 45
     spriteID: 53694b0bcbbb62647b3eb88661cbabbd
@@ -354,7 +354,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 215, y: -1541}
+    uvTransform: {x: 348, y: -1591}
   - name: Fungi01
     originalName: 
     pivot: {x: 0.5000002, y: 0.111632064}
@@ -428,8 +428,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 793
-      y: 298
+      x: 850
+      y: 883
       width: 46
       height: 49
     spriteID: 59c09e618e5b0a745ad19928d98ce474
@@ -442,7 +442,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 215, y: -1546}
+    uvTransform: {x: 272, y: -961}
   - name: Topp03
     originalName: 
     pivot: {x: 0.5, y: 0.09207153}
@@ -450,8 +450,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 850
-      y: 289
+      x: 925
+      y: 355
       width: 24
       height: 56
     spriteID: 24355780507220249a54ddf7fb1bdc4f
@@ -464,7 +464,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 218, y: -1555}
+    uvTransform: {x: 293, y: -1489}
   - name: Berries02
     originalName: 
     pivot: {x: 0.37104186, y: 0.07891228}
@@ -472,8 +472,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 793
-      y: 355
+      x: 925
+      y: 239
       width: 40
       height: 42
     spriteID: d973122d445b3d442bf57e8fc1271a88
@@ -486,7 +486,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 48, y: -1502}
+    uvTransform: {x: 180, y: -1618}
   - name: Berries01
     originalName: 
     pivot: {x: 0.49311316, y: 0.04117368}
@@ -516,8 +516,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 850
-      y: 183
+      x: 925
+      y: 186
       width: 53
       height: 46
     spriteID: 27abdc023bf4b224ca6725dff7f1979e
@@ -530,7 +530,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 151, y: -1791}
+    uvTransform: {x: 226, y: -1788}
   - name: ImpStool02
     originalName: 
     pivot: {x: 0.56550294, y: 0.14909363}
@@ -538,8 +538,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 966
-      y: 4
+      x: 793
+      y: 364
       width: 45
       height: 42
     spriteID: 52eed0fc93c884346acf38fa9585676a
@@ -552,7 +552,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 433, y: -1919}
+    uvTransform: {x: 260, y: -1559}
   - name: ImpStool01
     originalName: 
     pivot: {x: 0.50000054, y: 0.11145103}
@@ -560,8 +560,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 850
-      y: 120
+      x: 963
+      y: 4
       width: 55
       height: 55
     spriteID: 8fc85b33f048c0f4aa59d01f034209c1
@@ -574,7 +574,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 255, y: -1796}
+    uvTransform: {x: 368, y: -1912}
   - name: Chanterelle02
     originalName: 
     pivot: {x: 0.5566852, y: 0.0906094}
@@ -582,8 +582,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 918
-      y: 56
+      x: 850
+      y: 671
       width: 65
       height: 45
     spriteID: 18b795de5496148488c36b5ae7fcd5dc
@@ -596,7 +596,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 302, y: -1917}
+    uvTransform: {x: 234, y: -1302}
   - name: Chanterelle01
     originalName: 
     pivot: {x: 0.47597066, y: 0.09922817}
@@ -604,8 +604,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 674
-      y: 864
+      x: 850
+      y: 69
       width: 92
       height: 57
     spriteID: 6b0a99379aa8a484fa067fbb768a92ed
@@ -618,7 +618,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 144, y: -1109}
+    uvTransform: {x: 320, y: -1904}
   - name: Rock02
     originalName: 
     pivot: {x: 0.5453477, y: 0.09395132}
@@ -707,6 +707,424 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -1636, y: -77}
+  - name: DirtPile_unplanted
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 674
+      y: 774
+      width: 105
+      height: 63
+    spriteID: 9445ce70e41bc0440957b2939f381630
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 268, y: -937}
+  - name: DirtPile_planted
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 4
+      width: 105
+      height: 57
+    spriteID: 9a8a521774db924499c63f5d46ce0136
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 571, y: -1707}
+  - name: Fungi_Stage3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 478
+      width: 61
+      height: 60
+    spriteID: 5149e9883a3c84c49825b9928e17951b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 194, y: -1108}
+  - name: Fungi_Stage2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 725
+      width: 60
+      height: 45
+    spriteID: 22d7699c18c66b7489c393718bc55941
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 256, y: -862}
+  - name: Fungi_Stage1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 793
+      y: 411
+      width: 47
+      height: 29
+    spriteID: c9fc99191ace47a4ab56da8f62479947
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 255, y: -1175}
+  - name: Fungi_icon
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 925
+      y: 289
+      width: 25
+      height: 58
+    spriteID: b5fd08fbfadb7734eb395c6995525eaa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 188, y: -1297}
+  - name: Kantarell_Stage3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 852
+      y: 186
+      width: 65
+      height: 66
+    spriteID: e2ce8779c9ca47b4285ca456eb06a471
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 198, y: -1335}
+  - name: Kantarell_Stage2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 778
+      width: 59
+      height: 45
+    spriteID: 9ab9d3da08395f54bb5850f177e39912
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 256, y: -747}
+  - name: Kantarell_Stage1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 789
+      y: 740
+      width: 31
+      height: 32
+    spriteID: b27763d8809b17946a21f6617876aef6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 251, y: -784}
+  - name: Kantarell_icon
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 610
+      width: 62
+      height: 53
+    spriteID: ab8abf9e13b1b2d49ae6554f574368d7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 131, y: -916}
+  - name: Toppiga_Stage3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 331
+      width: 65
+      height: 63
+    spriteID: f643f37de3a5efb4384d8b1e5209cf5b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 196, y: -1318}
+  - name: Toppiga_Stage2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 849
+      y: 830
+      width: 56
+      height: 46
+    spriteID: 28e9ffcb98b2bf44f9c09bc32cedce4a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 254, y: -822}
+  - name: Toppiga_Stage1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 966
+      y: 134
+      width: 51
+      height: 35
+    spriteID: 34b03e766a43920408d81a36c5f8f619
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 433, y: -1518}
+  - name: Toppiga_icon
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 793
+      y: 298
+      width: 32
+      height: 58
+    spriteID: 885ffa9f648613e48b33884c77d190e1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 60, y: -1354}
+  - name: Amanita_icon
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 546
+      width: 60
+      height: 56
+    spriteID: 3ce314b7345ddc4419931732c51ffcf4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 131, y: -1168}
+  - name: Amanita_Stage2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 787
+      y: 775
+      width: 53
+      height: 45
+    spriteID: e7bdd25c5c8b8a04781a819078db574c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 191, y: -941}
+  - name: Amanita_Stage1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 755
+      y: 918
+      width: 40
+      height: 31
+    spriteID: f97a1b916a92378438ae56e7db4fbea0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 216, y: -797}
+  - name: Amanita_Stage3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 849
+      y: 259
+      width: 65
+      height: 64
+    spriteID: 9971eaceff62740468711d3065c27e5c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 196, y: -1455}
+  - name: Plant_Stage0
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 828
+      y: 740
+      width: 10
+      height: 9
+    spriteID: 6462dcca1ee127849a28880844810ec2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 375, y: -932}
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -759,6 +1177,13 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: Layer 1
+    spriteName: Layer 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6462dcca1ee127849a28880844810ec2
+    layerID: 56
+    mosaicPosition: {x: 828, y: 740}
   - name: Branch01
     spriteName: Branch01
     isGroup: 0
@@ -793,56 +1218,56 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 81343cc43cdfa1e4f895bbd8a72f1590
     layerID: 25
-    mosaicPosition: {x: 756, y: 774}
+    mosaicPosition: {x: 756, y: 845}
   - name: Leaf01
     spriteName: Leaf01
     isGroup: 0
     parentIndex: -1
     spriteID: 180312162a58b534f9b5f7dba51a6325
     layerID: 26
-    mosaicPosition: {x: 850, y: 4}
+    mosaicPosition: {x: 850, y: 134}
   - name: Grass01
     spriteName: Grass01
     isGroup: 0
     parentIndex: -1
     spriteID: 690c98df0a72b4a4fbd7c945f181cce2
     layerID: 27
-    mosaicPosition: {x: 674, y: 774}
+    mosaicPosition: {x: 674, y: 845}
   - name: Grass02
     spriteName: Grass02
     isGroup: 0
     parentIndex: -1
     spriteID: 14586adcfb0e6a34892ba860aabaf47c
     layerID: 28
-    mosaicPosition: {x: 772, y: 864}
+    mosaicPosition: {x: 850, y: 401}
   - name: Grass03
     spriteName: Grass03
     isGroup: 0
     parentIndex: -1
     spriteID: a95604d50b9b9d641acbbcc8a3438973
     layerID: 29
-    mosaicPosition: {x: 850, y: 353}
+    mosaicPosition: {x: 804, y: 917}
   - name: Amanita01
     spriteName: Amanita01
     isGroup: 0
     parentIndex: -1
     spriteID: 27d5b4b36d1f2704aa2c8e2b37bfa9fa
     layerID: 9
-    mosaicPosition: {x: 850, y: 56}
+    mosaicPosition: {x: 948, y: 69}
   - name: Amanita02
     spriteName: Amanita02
     isGroup: 0
     parentIndex: -1
     spriteID: ec75a6453f915424293e2d1583cda71a
     layerID: 10
-    mosaicPosition: {x: 793, y: 405}
+    mosaicPosition: {x: 925, y: 419}
   - name: Fungi02
     spriteName: Fungi02
     isGroup: 0
     parentIndex: -1
     spriteID: 53694b0bcbbb62647b3eb88661cbabbd
     layerID: 11
-    mosaicPosition: {x: 850, y: 236}
+    mosaicPosition: {x: 983, y: 186}
   - name: Fungi01
     spriteName: Fungi01
     isGroup: 0
@@ -870,21 +1295,21 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 59c09e618e5b0a745ad19928d98ce474
     layerID: 15
-    mosaicPosition: {x: 793, y: 298}
+    mosaicPosition: {x: 850, y: 883}
   - name: Topp03
     spriteName: Topp03
     isGroup: 0
     parentIndex: -1
     spriteID: 24355780507220249a54ddf7fb1bdc4f
     layerID: 16
-    mosaicPosition: {x: 850, y: 289}
+    mosaicPosition: {x: 925, y: 355}
   - name: Berries02
     spriteName: Berries02
     isGroup: 0
     parentIndex: -1
     spriteID: d973122d445b3d442bf57e8fc1271a88
     layerID: 17
-    mosaicPosition: {x: 793, y: 355}
+    mosaicPosition: {x: 925, y: 239}
   - name: Berries01
     spriteName: Berries01
     isGroup: 0
@@ -898,35 +1323,35 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 27abdc023bf4b224ca6725dff7f1979e
     layerID: 19
-    mosaicPosition: {x: 850, y: 183}
+    mosaicPosition: {x: 925, y: 186}
   - name: ImpStool02
     spriteName: ImpStool02
     isGroup: 0
     parentIndex: -1
     spriteID: 52eed0fc93c884346acf38fa9585676a
     layerID: 20
-    mosaicPosition: {x: 966, y: 4}
+    mosaicPosition: {x: 793, y: 364}
   - name: ImpStool01
     spriteName: ImpStool01
     isGroup: 0
     parentIndex: -1
     spriteID: 8fc85b33f048c0f4aa59d01f034209c1
     layerID: 21
-    mosaicPosition: {x: 850, y: 120}
+    mosaicPosition: {x: 963, y: 4}
   - name: Chanterelle02
     spriteName: Chanterelle02
     isGroup: 0
     parentIndex: -1
     spriteID: 18b795de5496148488c36b5ae7fcd5dc
     layerID: 22
-    mosaicPosition: {x: 918, y: 56}
+    mosaicPosition: {x: 850, y: 671}
   - name: Chanterelle01
     spriteName: Chanterelle01
     isGroup: 0
     parentIndex: -1
     spriteID: 6b0a99379aa8a484fa067fbb768a92ed
     layerID: 23
-    mosaicPosition: {x: 674, y: 864}
+    mosaicPosition: {x: 850, y: 69}
   - name: Tree01
     spriteName: Tree01
     isGroup: 0
@@ -948,6 +1373,132 @@ ScriptedImporter:
     spriteID: 9770d51ba03b22f4caa8e0d2b4778c3e
     layerID: 8
     mosaicPosition: {x: 674, y: 554}
+  - name: DirtPile_unplanted
+    spriteName: DirtPile_unplanted
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9445ce70e41bc0440957b2939f381630
+    layerID: 54
+    mosaicPosition: {x: 674, y: 774}
+  - name: DirtPile_planted
+    spriteName: DirtPile_planted
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9a8a521774db924499c63f5d46ce0136
+    layerID: 53
+    mosaicPosition: {x: 850, y: 4}
+  - name: Fungi_Stage3
+    spriteName: Fungi_Stage3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5149e9883a3c84c49825b9928e17951b
+    layerID: 52
+    mosaicPosition: {x: 850, y: 478}
+  - name: Fungi_Stage2
+    spriteName: Fungi_Stage2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 22d7699c18c66b7489c393718bc55941
+    layerID: 51
+    mosaicPosition: {x: 850, y: 724}
+  - name: Fungi_Stage1
+    spriteName: Fungi_Stage1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c9fc99191ace47a4ab56da8f62479947
+    layerID: 50
+    mosaicPosition: {x: 793, y: 411}
+  - name: Fungi_icon
+    spriteName: Fungi_icon
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b5fd08fbfadb7734eb395c6995525eaa
+    layerID: 49
+    mosaicPosition: {x: 925, y: 289}
+  - name: Kantarell_Stage3
+    spriteName: Kantarell_Stage3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e2ce8779c9ca47b4285ca456eb06a471
+    layerID: 48
+    mosaicPosition: {x: 850, y: 186}
+  - name: Kantarell_Stage2
+    spriteName: Kantarell_Stage2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9ab9d3da08395f54bb5850f177e39912
+    layerID: 47
+    mosaicPosition: {x: 850, y: 777}
+  - name: Kantarell_Stage1
+    spriteName: Kantarell_Stage1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b27763d8809b17946a21f6617876aef6
+    layerID: 46
+    mosaicPosition: {x: 789, y: 740}
+  - name: Kantarell_icon
+    spriteName: Kantarell_icon
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ab8abf9e13b1b2d49ae6554f574368d7
+    layerID: 45
+    mosaicPosition: {x: 850, y: 610}
+  - name: Toppiga_Stage3
+    spriteName: Toppiga_Stage3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f643f37de3a5efb4384d8b1e5209cf5b
+    layerID: 44
+    mosaicPosition: {x: 850, y: 331}
+  - name: Toppiga_Stage2
+    spriteName: Toppiga_Stage2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 28e9ffcb98b2bf44f9c09bc32cedce4a
+    layerID: 43
+    mosaicPosition: {x: 850, y: 829}
+  - name: Toppiga_Stage1
+    spriteName: Toppiga_Stage1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 34b03e766a43920408d81a36c5f8f619
+    layerID: 42
+    mosaicPosition: {x: 966, y: 134}
+  - name: Toppiga_icon
+    spriteName: Toppiga_icon
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 885ffa9f648613e48b33884c77d190e1
+    layerID: 41
+    mosaicPosition: {x: 793, y: 298}
+  - name: Amanita_icon
+    spriteName: Amanita_icon
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3ce314b7345ddc4419931732c51ffcf4
+    layerID: 40
+    mosaicPosition: {x: 850, y: 546}
+  - name: Amanita_Stage3
+    spriteName: Amanita_Stage3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9971eaceff62740468711d3065c27e5c
+    layerID: 55
+    mosaicPosition: {x: 850, y: 259}
+  - name: Amanita_Stage2
+    spriteName: Amanita_Stage2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e7bdd25c5c8b8a04781a819078db574c
+    layerID: 38
+    mosaicPosition: {x: 787, y: 774}
+  - name: Amanita_Stage1
+    spriteName: Amanita_Stage1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f97a1b916a92378438ae56e7db4fbea0
+    layerID: 37
+    mosaicPosition: {x: 756, y: 917}
   - name: Rock01
     spriteName: Rock01
     isGroup: 0

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c611f12518738342bdd91662cc8240b, type: 3}
+  m_Name: ToadCap
+  m_EditorClassIdentifier: 
+  plantName: Toad Cap
+  plantStages:
+  - {fileID: -2290382641044265398, guid: 184e93a4b2c583d4dacc51e50867a268, type: 3}
+  - {fileID: -5572552873200886874, guid: 184e93a4b2c583d4dacc51e50867a268, type: 3}
+  - {fileID: -5740960010184854378, guid: 184e93a4b2c583d4dacc51e50867a268, type: 3}
+  - {fileID: 6085705532903492070, guid: 184e93a4b2c583d4dacc51e50867a268, type: 3}
+  timeBtwStages: 2
+  colorValues:
+  - 0.91
+  - 0.64
+  - 0.68
+  - 0.8
+  - 0.31
+  - 0.21

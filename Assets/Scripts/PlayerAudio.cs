@@ -17,7 +17,13 @@ public class PlayerAudio : MonoBehaviour
     public float enemyProximityDistance = 5f;
     public LayerMask enemyMask;
 
+    public AudioClip[] softSteps;
+    public AudioClip[] hardSteps;
+    public AudioClip[] wetSteps;
+    private AudioClip[] _stepClipToPlay;
+
     bool _enemyNear;
+
 
     private void Update()
     {
@@ -43,9 +49,10 @@ public class PlayerAudio : MonoBehaviour
     {
         if(collision.CompareTag("Water")) {
             audioS.PlayOneShot(splashSound);
+            _stepClipToPlay = wetSteps;
         }
 
-        if(collision.CompareTag("Enemy"))
+        if (collision.CompareTag("Enemy"))
         {
             auxInSnapshot.TransitionTo(enemyTransitionTime);
         }
@@ -53,12 +60,14 @@ public class PlayerAudio : MonoBehaviour
         if (collision.CompareTag("AmbientCave"))
         {
             ambCaveSnapshot.TransitionTo(ambTransitionTime);
-            
+            _stepClipToPlay = wetSteps;
+
         }
 
         if (collision.CompareTag("AmbientForest"))
         {
             ambForestSnapshot.TransitionTo(ambTransitionTime);
+            _stepClipToPlay = softSteps;
         }
     }
 
@@ -77,5 +86,17 @@ public class PlayerAudio : MonoBehaviour
         {
             ambIdleSnapshot.TransitionTo(ambTransitionTime);
         }
+        _stepClipToPlay = hardSteps;
+    }
+
+    public void PlayFootsteps()
+    {
+        Debug.Log("Play step");
+        if (_stepClipToPlay == null)
+        {
+            _stepClipToPlay = hardSteps;
+        }
+        int r = Random.Range(0, _stepClipToPlay.Length);
+        audioS.PlayOneShot(_stepClipToPlay[r]);
     }
 }
