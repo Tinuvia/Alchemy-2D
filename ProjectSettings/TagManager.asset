@@ -64,6 +64,9 @@ TagManager:
   - name: Lights
     uniqueID: 1344486879
     locked: 0
+  - name: Farming
+    uniqueID: 97279347
+    locked: 0
   - name: Player
     uniqueID: 2462893445
     locked: 0
