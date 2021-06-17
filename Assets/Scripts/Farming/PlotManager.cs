@@ -20,34 +20,41 @@ public class PlotManager : MonoBehaviour, IPointerClickHandler
         plantCollider = transform.GetChild(0).GetComponent<BoxCollider2D>();
     }
 
+
+    /* OnAwake or Start
+     * if wild
+     * RandomizeColor();
+    */
+
     // Update is called once per frame
     void Update()
     {
-        if (isPlanted)
+        if (isPlanted) // || (wild && plantstage < max)
         {
             timer -= Time.deltaTime;
 
             if ((timer < 0) && (plantStage < (selectedPlant.plantStages.Length - 1)))
             {
+                // if wild, multiply timeBtwStages with WildMultiplierTimeBtwStages
                 timer = selectedPlant.timeBtwStages;
                 plantStage++;
                 UpdatePlant();
             }
-        }       
+        }     
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
         if (eventData.button == PointerEventData.InputButton.Left)
         {
-            if (isPlanted)
+            if (isPlanted) // or wild
             {
                 if (plantStage == selectedPlant.plantStages.Length - 1)
                 {
                     Harvest();
                 }
             }
-            else
+            else // check that this is skipped if wild
             {
                 Plant();
             }
@@ -55,9 +62,17 @@ public class PlotManager : MonoBehaviour, IPointerClickHandler
     }
 
     void Harvest()
-    {
+    {        
+        /*
+        if wild
+        { 
+            plantStage = 1;
+            timer = selectedPlant.timeBtwStages
+        } else (do things below)
+        */
         isPlanted = false;
         plant.gameObject.SetActive(false);
+
     }
 
     void Plant()
